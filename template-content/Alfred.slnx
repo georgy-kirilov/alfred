@@ -8,4 +8,10 @@
     <File Path="global.json" />
     <File Path="nuget.config" />
   </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Alfred.WebApi/Alfred.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Alfred.WebApi.Tests/Alfred.WebApi.Tests.csproj" />
+  </Folder>
 </Solution>

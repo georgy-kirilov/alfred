@@ -1,0 +1,160 @@
+# =========================================================
+# Environment / local secrets
+# =========================================================
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# User-specific files
+# =========================================================
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+
+# =========================================================
+# IDE / editor folders
+# =========================================================
+.vs/
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.sln.iml
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.code-workspace
+
+# =========================================================
+# Build output
+# =========================================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# =========================================================
+# Logs / temp / caches
+# =========================================================
+*.log
+*.tmp
+*.temp
+*.cache
+*.pidb
+*.svclog
+*.swp
+*~
+~$*
+
+# =========================================================
+# Test / coverage / benchmarking
+# =========================================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+BenchmarkDotNet.Artifacts/
+
+# =========================================================
+# NuGet / packages
+# =========================================================
+*.nupkg
+*.snupkg
+
+# Legacy packages folder (usually not needed with PackageReference)
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+*.nuget.props
+*.nuget.targets
+
+# =========================================================
+# Local tool / runtime folders
+# =========================================================
+.tye/
+.fake/
+.paket/paket.exe
+paket-files/
+
+# =========================================================
+# Frontend / web tooling
+# =========================================================
+node_modules/
+
+# =========================================================
+# Scaffolding / generated
+# =========================================================
+ScaffoldingReadMe.txt
+Generated\ Files/
+
+# =========================================================
+# Coverage / analysis tools
+# =========================================================
+.axoCover/*
+!.axoCover/settings.json
+*.dotCover
+OpenCover/
+
+# =========================================================
+# SQL / local databases
+# =========================================================
+*.mdf
+*.ldf
+*.ndf
+
+# =========================================================
+# OS files
+# =========================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================================================
+# Archives / installers / binaries generated locally
+# =========================================================
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+*.lnk
+
+# =========================================================
+# Local history
+# =========================================================
+.history/
+.localhistory/
+.vshistory/
+
+# =========================================================
+# Misc
+# =========================================================
+mono_crash.*

@@ -7,7 +7,11 @@
   "shortName": "alfred",
   "sourceName": "Alfred",
   "preferNameDirectory": true,
-  "description": "A solid .NET repository template with sensible engineering defaults and no architectural lock-in.",
+  "description": "Alfred is here to help. Alfred is here to guide. But Alfred won't tell you what to build.",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
   "symbols": {
     "skipRestore": {
       "type": "parameter",

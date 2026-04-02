@@ -2,4 +2,8 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="Meziantou.Analyzer" Version="3.0.43" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "Georgi Kirilov",
+  "classifications": [ ".NET", "Repository", "Foundation", "Starter" ],
+  "identity": "Alfred.Template",
+  "name": "Alfred",
+  "shortName": "alfred",
+  "sourceName": "Alfred",
+  "preferNameDirectory": true,
+  "description": "A solid .NET repository template with sensible engineering defaults and no architectural lock-in.",
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "Skips automatic restore after template creation."
+    }
+  },
+  "primaryOutputs": [
+    {
+      "path": "Alfred.slnx"
+    }
+  ],
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**"
+      ]
+    }
+  ],
+  "postActions": [
+    {
+      "condition": "(!skipRestore)",
+      "description": "Restore NuGet packages required by this template.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ]
+}
